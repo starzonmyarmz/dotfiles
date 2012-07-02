@@ -4,20 +4,16 @@ alias ...="cd ../.."
 alias ~="cd ~" # `cd` is probably faster to type though
 alias -- -="cd -"
 
-# ssh!
-alias shh='ssh aurgasm@aurgasm.us'
-alias shhve='ssh paul@javascriptbattle.com'
-
 # programs
 alias slt='open -a "Sublime Text 2"'
 alias subl='open -a "Sublime Text 2"'
+alias slime='open -a "Sublime Text 2"'
 
 # be nice
 alias please=sudo
 
 # handy things
 alias bunyip='node ~/code/bunyip/cli.js'
-
 
 # List all files colorized in long format, including dot files
 alias la="ls -Gla"
@@ -78,11 +74,9 @@ alias c="tr -d '\n' | pbcopy"
 alias cleanup="find . -name '*.DS_Store' -type f -ls -delete"
 
 # Shortcuts
-alias d="cd ~/Documents/Dropbox"
-alias p="cd ~/Projects"
+alias dropbox="cd ~/Documents/Dropbox"
+alias proj="cd ~/Projects"
 alias g="git"
-alias v="vim"
-alias m="mate ."
 
 # File size
 alias fs="stat -f \"%z bytes\""
