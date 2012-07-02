@@ -76,6 +76,7 @@ alias cleanup="find . -name '*.DS_Store' -type f -ls -delete"
 # Shortcuts
 alias dropbox="cd ~/Documents/Dropbox"
 alias proj="cd ~/Projects"
+alias dls="cd ~/Downloads"
 alias g="git"
 
 # File size
@@ -88,8 +89,8 @@ alias rot13='tr a-zA-Z n-za-mN-ZA-M'
 alias emptytrash="sudo rm -rfv /Volumes/*/.Trashes; rm -rfv ~/.Trash"
 
 # Show/hide hidden files in Finder
-alias show="defaults write com.apple.Finder AppleShowAllFiles -bool true && killall Finder"
-alias hide="defaults write com.apple.Finder AppleShowAllFiles -bool false && killall Finder"
+alias showdots="defaults write com.apple.Finder AppleShowAllFiles -bool true && killall Finder && echo 'Showing Hidden Files'"
+alias hidedots="defaults write com.apple.Finder AppleShowAllFiles -bool false && killall Finder && echo 'Hiding Hidden Files'"
 
 # Hide/show all desktop icons (useful when presenting)
 alias hidedesktop="defaults write com.apple.finder CreateDesktop -bool false && killall Finder"
