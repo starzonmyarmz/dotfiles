@@ -1,5 +1,5 @@
 [alias]
-	c  = commit
+	ci = commit
 	p  = push
 	s  = status -s
 	co = checkout
