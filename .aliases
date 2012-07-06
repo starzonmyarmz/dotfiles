@@ -77,7 +77,6 @@ alias cleanup="find . -name '*.DS_Store' -type f -ls -delete"
 alias dropbox="cd ~/Documents/Dropbox"
 alias proj="cd ~/Projects"
 alias dls="cd ~/Downloads"
-alias g="git"
 
 # File size
 alias fs="stat -f \"%z bytes\""
