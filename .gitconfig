@@ -20,6 +20,8 @@
 	added = yellow
 	changed = green
 	untracked = cyan
+[core]
+	excludesfile = ~/.gitignore
 [merge]
 	log = true
 [url "git@github.com:"]
