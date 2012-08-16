@@ -10,6 +10,12 @@ Thumbs.db
 .Spotlight-V100
 .Trashes
 
+# Sass stuff
+.sass-cache/
+
 # Design related files
-Mockups/
+mockups/
 design/
+
+#Misc
+todo.txt

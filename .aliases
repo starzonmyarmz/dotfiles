@@ -74,7 +74,7 @@ alias c="tr -d '\n' | pbcopy"
 alias cleanup="find . -name '*.DS_Store' -type f -ls -delete"
 
 # Shortcuts
-alias dropbox="cd ~/Documents/Dropbox"
+alias dropbox="cd ~/Dropbox"
 alias proj="cd ~/Projects"
 alias dls="cd ~/Downloads"
 

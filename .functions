@@ -58,6 +58,12 @@ function gitexport(){
 	git archive master | tar -x -C "$1"
 }
 
+# copy this directory and contents to dropbox public directory
+function todbox() {
+  mkdir -p "$1"
+  cp -R ./ ~/Dropbox/Public/$1
+}
+
 # get gzipped size
 function gz() {
 	echo "orig size    (bytes): "
