@@ -29,8 +29,8 @@ defaults write NSGlobalDomain AppleShowScrollBars -string "Always"
 # Allow quitting Finder via ⌘ + Q; doing so will also hide desktop icons
 defaults write com.apple.finder QuitMenuItem -bool true
 
-# Show all filename extensions in Finder
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+# Do not show all filename extensions in Finder
+defaults write NSGlobalDomain AppleShowAllExtensions -bool false
 
 # Expand save panel by default
 defaults write NSGlobalDomain NSNavPanelExpandedStateForSaveMode -bool true
