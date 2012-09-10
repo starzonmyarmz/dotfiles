@@ -58,12 +58,6 @@ function gitexport(){
 	git archive master | tar -x -C "$1"
 }
 
-# copy this directory and contents to dropbox public directory
-function todbox() {
-  mkdir -p "$1"
-  cp -R ./ ~/Dropbox/Public/$1
-}
-
 # get gzipped size
 function gz() {
 	echo "orig size    (bytes): "
@@ -88,3 +82,9 @@ function unidecode() {
 	perl -e "binmode(STDOUT, ':utf8'); print \"$@\""
 	echo # newline
 }
+
+# Run Scour on a SVG file (using http://codedread.com/scour)
+function scour() {
+  ~/Projects/scour/scour.py --enable-comment-stripping --quiet --remove-metadata -i "$1" -o "$2"
+}
+
