@@ -82,9 +82,3 @@ function unidecode() {
 	perl -e "binmode(STDOUT, ':utf8'); print \"$@\""
 	echo # newline
 }
-
-# Run Scour on a SVG file (using http://codedread.com/scour)
-function scour() {
-  ~/Projects/scour/scour.py --enable-comment-stripping --quiet --remove-metadata -i "$1" -o "$2"
-}
-
