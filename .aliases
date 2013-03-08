@@ -1,11 +1,4 @@
-# Easier navigation
-alias ..="cd .."
-alias ...="cd ../.."
-alias -- -="cd -"
-
 # programs
-alias slt='open -a "Sublime Text 2"'
-alias subl='open -a "Sublime Text 2"'
 alias slime='open -a "Sublime Text 2"'
 
 # List all files colorized in long format, including dot files
@@ -23,7 +16,7 @@ else
 fi
 
 # `cat` with beautiful colors. requires Pygments installed.
-# 							   sudo easy_install Pygments
+# sudo easy_install Pygments
 alias c='pygmentize -O style=monokai -f console256 -g'
 
 # GIT STUFF
@@ -57,6 +50,7 @@ alias cleanup="find . -name '*.DS_Store' -type f -ls -delete"
 # Shortcuts
 alias projects="cd ~/Projects"
 alias downloads="cd ~/Downloads"
+alias dropbox="cd ~/Dropbox"
 
 # File size
 alias filesize="stat -f \"%z bytes\""
@@ -74,5 +68,6 @@ alias showdesktop="defaults write com.apple.finder CreateDesktop -bool true && k
 
 # Disable Spotlight
 alias spotoff="sudo mdutil -a -i off"
+
 # Enable Spotlight
 alias spoton="sudo mdutil -a -i on"

@@ -17,5 +17,9 @@ Thumbs.db
 mockups/
 design/
 
+# Reference files
+ref/
+reference/
+
 #Misc
 todo.txt
