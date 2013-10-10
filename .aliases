@@ -4,7 +4,7 @@ alias slime='open -a "Sublime Text 2"'
 # Project Roots
 alias gh='cd ~/Code/getharvest/'
 alias ha='cd ~/Code/harvestapp/'
-alias pb='cd ~/Code/paperboy2/'
+alias pb='cd ~/Code/paperboy/'
 
 # List all files colorized in long format, including dot files
 alias la="ls -Gla"
