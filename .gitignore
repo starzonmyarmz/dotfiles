@@ -12,14 +12,3 @@ Thumbs.db
 
 # Sass stuff
 .sass-cache/
-
-# Design related files
-mockups/
-design/
-
-# Reference files
-ref/
-reference/
-
-#Misc
-todo.txt
