@@ -1,5 +1,5 @@
 # Programs
-alias slime='open -a "Sublime Text 2"'
+alias slime='open -a "Sublime Text"'
 
 # List all files colorized in long format, including dot files
 alias la="ls -Gla"
