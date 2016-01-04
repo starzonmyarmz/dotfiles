@@ -21,7 +21,7 @@
 	changed = green
 	untracked = cyan
 [core]
-	editor = subl -new-window --wait
+	editor = subl --wait
 	excludesfile = ~/.gitignore
 [merge]
 	log = true
