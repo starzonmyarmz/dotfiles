@@ -30,3 +30,6 @@ alias hidedots="defaults write com.apple.Finder AppleShowAllFiles -bool false &&
 
 # Bundle Exec
 alias be="bundle exec"
+
+# Docker Compose
+alias dc="docker-compose"
