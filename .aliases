@@ -10,3 +10,7 @@ alias be="bundle exec"
 
 # Docker Compose
 alias dc="docker-compose"
+
+# Barking up a tree
+alias ..="cd .."
+alias ...="cd ../.."
